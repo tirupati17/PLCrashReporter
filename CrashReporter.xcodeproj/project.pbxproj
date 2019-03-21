@@ -4948,6 +4948,7 @@
 				);
 				PRODUCT_NAME = "Fuzz Testing";
 				SDKROOT = macosx;
+				VALID_ARCHS = "armv7 armv7s armv6 x86_64 arm64 arm64e";
 			};
 			name = Debug;
 		};
@@ -4969,6 +4970,7 @@
 				);
 				PRODUCT_NAME = "Fuzz Testing";
 				SDKROOT = macosx;
+				VALID_ARCHS = "armv7 armv7s armv6 x86_64 arm64 arm64e";
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -4999,6 +5001,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "coop.plausible.${PRODUCT_NAME:rfc822identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv7 armv7s armv6 x86_64 arm64 arm64e";
 			};
 			name = Debug;
 		};
@@ -5027,6 +5030,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "coop.plausible.${PRODUCT_NAME:rfc822identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv7 armv7s armv6 x86_64 arm64 arm64e";
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -5111,6 +5115,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "coop.plausible.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = CrashReporter;
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = "armv7 armv7s armv6 x86_64 arm64 arm64e";
 			};
 			name = Debug;
 		};
@@ -5134,6 +5139,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "coop.plausible.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = CrashReporter;
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = "armv7 armv7s armv6 x86_64 arm64 arm64e";
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -5177,6 +5183,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s armv6 x86_64 arm64 arm64e";
 			};
 			name = Debug;
 		};
@@ -5196,6 +5203,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s armv6 x86_64 arm64 arm64e";
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -5217,7 +5225,7 @@
 				PRODUCT_NAME = "CrashReporter${EFFECTIVE_PLATFORM_NAME}";
 				SDKROOT = iphonesimulator;
 				SKIP_INSTALL = YES;
-				VALID_ARCHS = "i386 x86_64";
+				VALID_ARCHS = "x86_64 i386";
 			};
 			name = Debug;
 		};
@@ -5236,7 +5244,7 @@
 				PRODUCT_NAME = "CrashReporter${EFFECTIVE_PLATFORM_NAME}";
 				SDKROOT = iphonesimulator;
 				SKIP_INSTALL = YES;
-				VALID_ARCHS = "i386 x86_64";
+				VALID_ARCHS = "x86_64 i386";
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -5282,6 +5290,7 @@
 				PRODUCT_NAME = "Tests-MacOSX";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = "armv7 armv7s armv6 x86_64 arm64 arm64e";
 				WARNING_CFLAGS = (
 					"$(inherited)",
 					"$(OTHER_WARNING_NO_ADDRESS)",
@@ -5308,6 +5317,7 @@
 				PRODUCT_NAME = "Tests-MacOSX";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = "armv7 armv7s armv6 x86_64 arm64 arm64e";
 				WARNING_CFLAGS = (
 					"$(inherited)",
 					"$(OTHER_WARNING_NO_ADDRESS)",
@@ -5339,6 +5349,7 @@
 				PRODUCT_NAME = "Tests-iOS-Simulator";
 				SDKROOT = iphonesimulator;
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = "armv7 armv7s armv6 x86_64 arm64 arm64e";
 				WARNING_CFLAGS = (
 					"$(inherited)",
 					"$(OTHER_WARNING_NO_ADDRESS)",
@@ -5368,6 +5379,7 @@
 				PRODUCT_NAME = "Tests-iOS-Simulator";
 				SDKROOT = iphonesimulator;
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = "armv7 armv7s armv6 x86_64 arm64 arm64e";
 				WARNING_CFLAGS = (
 					"$(inherited)",
 					"$(OTHER_WARNING_NO_ADDRESS)",
@@ -5401,6 +5413,7 @@
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoCrash-iOS-Device.app/DemoCrash-iOS-Device";
+				VALID_ARCHS = "armv7 armv7s armv6 x86_64 arm64 arm64e";
 				WARNING_CFLAGS = (
 					"$(inherited)",
 					"$(OTHER_WARNING_NO_ADDRESS)",
@@ -5433,6 +5446,7 @@
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoCrash-iOS-Device.app/DemoCrash-iOS-Device";
+				VALID_ARCHS = "armv7 armv7s armv6 x86_64 arm64 arm64e";
 				WARNING_CFLAGS = (
 					"$(inherited)",
 					"$(OTHER_WARNING_NO_ADDRESS)",
@@ -5569,6 +5583,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = "";
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = "armv7 armv7s armv6 x86_64 arm64 arm64e";
 			};
 			name = Debug;
 		};
@@ -5596,6 +5611,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = "";
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = "armv7 armv7s armv6 x86_64 arm64 arm64e";
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -5771,6 +5787,7 @@
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALID_ARCHS = "armv7 armv7s armv6 x86_64 arm64 arm64e";
 			};
 			name = Debug;
 		};
@@ -5799,6 +5816,7 @@
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALID_ARCHS = "armv7 armv7s armv6 x86_64 arm64 arm64e";
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -5878,6 +5896,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "coop.plausible.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = CrashReporter;
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = "armv7 armv7s armv6 x86_64 arm64 arm64e";
 			};
 			name = Debug;
 		};
@@ -5901,6 +5920,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "coop.plausible.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = CrashReporter;
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = "armv7 armv7s armv6 x86_64 arm64 arm64e";
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -5932,6 +5952,7 @@
 				SDKROOT = appletvsimulator;
 				SKIP_INSTALL = YES;
 				TVOS_DEPLOYMENT_TARGET = "$(PL_APPLETVOS_DEPLOYMENT_TARGET)";
+				VALID_ARCHS = "armv7 armv7s armv6 x86_64 arm64 arm64e";
 				WARNING_CFLAGS = (
 					"$(inherited)",
 					"$(OTHER_WARNING_NO_ADDRESS)",
@@ -5961,6 +5982,7 @@
 				SDKROOT = appletvsimulator;
 				SKIP_INSTALL = YES;
 				TVOS_DEPLOYMENT_TARGET = "$(PL_APPLETVOS_DEPLOYMENT_TARGET)";
+				VALID_ARCHS = "armv7 armv7s armv6 x86_64 arm64 arm64e";
 				WARNING_CFLAGS = (
 					"$(inherited)",
 					"$(OTHER_WARNING_NO_ADDRESS)",
@@ -5999,6 +6021,7 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoCrash-tvOS-Device.app/DemoCrash-tvOS-Device";
 				TVOS_DEPLOYMENT_TARGET = "$(PL_APPLETVOS_DEPLOYMENT_TARGET)";
+				VALID_ARCHS = "armv7 armv7s armv6 x86_64 arm64 arm64e";
 				WARNING_CFLAGS = (
 					"$(inherited)",
 					"$(OTHER_WARNING_NO_ADDRESS)",
@@ -6031,6 +6054,7 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoCrash-tvOS-Device.app/DemoCrash-tvOS-Device";
 				TVOS_DEPLOYMENT_TARGET = "$(PL_APPLETVOS_DEPLOYMENT_TARGET)";
+				VALID_ARCHS = "armv7 armv7s armv6 x86_64 arm64 arm64e";
 				WARNING_CFLAGS = (
 					"$(inherited)",
 					"$(OTHER_WARNING_NO_ADDRESS)",
@@ -6066,6 +6090,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "coop.plausible.${PRODUCT_NAME:rfc822identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
+				VALID_ARCHS = "armv7 armv7s armv6 x86_64 arm64 arm64e";
 			};
 			name = Debug;
 		};
@@ -6094,6 +6119,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "coop.plausible.${PRODUCT_NAME:rfc822identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
+				VALID_ARCHS = "armv7 armv7s armv6 x86_64 arm64 arm64e";
 				ZERO_LINK = NO;
 			};
 			name = Release;
