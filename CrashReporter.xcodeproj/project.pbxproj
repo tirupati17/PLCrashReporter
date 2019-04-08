@@ -5097,7 +5097,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				BITCODE_GENERATION_MODE = marker;
+				BITCODE_GENERATION_MODE = bitcode;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -5112,8 +5112,9 @@
 				OTHER_CFLAGS = (
 					"$(inherited)",
 					"-D$(PL_BUILD_CONFIG_FLAG)=1",
-					"-fembed-bitcode-marker",
+					"-fembed-bitcode",
 				);
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
 				OTHER_LDFLAGS = (
 					"-framework",
 					Foundation,
@@ -5144,6 +5145,7 @@
 					"-D$(PL_BUILD_CONFIG_FLAG)=1",
 					"-fembed-bitcode",
 				);
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
 				OTHER_LDFLAGS = (
 					"-framework",
 					Foundation,
@@ -5707,6 +5709,7 @@
 				OTHER_CFLAGS = (
 					"$(inherited)",
 					"-D$(PL_BUILD_CONFIG_FLAG)=1",
+					"-fembed-bitcode",
 				);
 				PL_APPLETVOS_DEPLOYMENT_TARGET = 9.0;
 				"PL_ARM_ARCHS[sdk=iphoneos*]" = "$(PL_PRE_XCODE_10_1_ARCHS) arm64e";
@@ -5751,6 +5754,7 @@
 				OTHER_CFLAGS = (
 					"$(inherited)",
 					"-D$(PL_BUILD_CONFIG_FLAG)=1",
+					"-fembed-bitcode",
 				);
 				PL_APPLETVOS_DEPLOYMENT_TARGET = 9.0;
 				"PL_ARM_ARCHS[sdk=iphoneos*]" = "$(PL_PRE_XCODE_10_1_ARCHS) arm64e";
